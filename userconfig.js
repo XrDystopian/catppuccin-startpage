@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = mmocha;
 
 const default_config = {
   overrideStorage: true,
@@ -16,52 +16,46 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "essentials",
       background_url: "src/img/banners/cbg-09.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-          ],
-        },
-        {
-          name: "workspace",
-          links: [
-            {
-              name: "gmail",
+              name: "Gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
               icon_color: palette.green,
             },
+          ],
+        },
+        {
+          name: "socials",
+          links: [
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "reddit",
+              url: "https://www.reddit.com",
+              icon: "brand-reddit",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
+              name: "instagram",
+              url: "https://www.instagram.com",
+              icon: "brand-instagram",
+              icon_color: palette.lavender,
             },
             {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
+              name: "twitter/X",
+              url: "https://x.com/home",
+              icon: "brand-x",
+              icon_color: palette.gray,
             },
           ],
         },
@@ -69,41 +63,29 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
+              name: "anilist",
+              url: "https://anilist.co/home",
+              icon: "brand-funimation",
+              icon_color: palette.sky,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
+              name: "mal",
+              url: "https://myanimelist.net",
+              icon: "brand-funimation",
               icon_color: palette.blue,
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
+              name: "simkl",
+              url: "https://simkl.com/6495165/dashboard",
+              icon: "movie",
+              icon_color: palette.rosemary,
             },
           ],
         },
       ],
     },
     {
-      name: "dev",
+      name: "space",
       background_url: "src/img/banners/cbg-07.gif",
       categories: [
         {
@@ -113,13 +95,13 @@ const default_config = {
               name: "github",
               url: "https://github.com",
               icon: "brand-github",
-              icon_color: palette.green,
+              icon_color: palette.gray,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
+              name: "w3schools",
+              url: "https://www.w3schools.com/",
+              icon: "code",
+              icon_color: palette.green,
             },
             {
               name: "stackoverflow",
@@ -130,31 +112,19 @@ const default_config = {
           ],
         },
         {
-          name: "challenges",
+          name: "high seas",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
-            },
-            {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
-              icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
+              name: "fitgirl-repacks",
+              url: "https://fitgirl-repacks.site",
+              icon: "skull",
               icon_color: palette.red,
             },
             {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
+              name: "steamrip",
+              url: "https://steamrip.com",
+              icon: "skull",
+              icon_color: palette.mauve,
             },
           ],
         },
@@ -162,10 +132,10 @@ const default_config = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
+              name: "fmhy",
+              url: "https://fmhy.net",
+              icon: "star",
+              icon_color: palette.blue,
             },
             {
               name: "hackernews",
