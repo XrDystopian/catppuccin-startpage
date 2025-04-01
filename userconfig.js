@@ -139,7 +139,7 @@ const default_config = {
             },
             {
               name: "jiji.co.ke",
-              url: "https://jiji.co.ke"
+              url: "https://jiji.co.ke",
             },
             {
               name: "pcgamesbenchmark",
