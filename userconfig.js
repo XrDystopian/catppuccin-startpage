@@ -3,9 +3,9 @@ const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
-  "localIcons": true
+  localIcons: true
   temperature: {
-    location: "London",
+    location: "Nairobi",
     scale: "C",
   },
   clock: {
