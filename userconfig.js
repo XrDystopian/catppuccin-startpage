@@ -3,6 +3,7 @@ const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
+  "localIcons": true
   temperature: {
     location: "London",
     scale: "C",
@@ -12,11 +13,11 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://catppuccin.com",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "essentials",
+      name: "space",
       background_url: "src/img/banners/cbg-09.gif",
       categories: [
         {
@@ -26,10 +27,10 @@ const default_config = {
               name: "youtube",
               url: "https://www.youtube.com/",
               icon: "brand-youtube",
-              icon_color: palette.green,
+              icon_color: palette.red,
             },
             {
-              name: "Gmail",
+              name: "gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
               icon_color: palette.green,
@@ -37,7 +38,7 @@ const default_config = {
           ],
         },
         {
-          name: "socials",
+          name: "social media",
           links: [
             {
               name: "reddit",
@@ -55,7 +56,7 @@ const default_config = {
               name: "twitter/X",
               url: "https://x.com/home",
               icon: "brand-x",
-              icon_color: palette.gray,
+              icon_color: palette.pink,
             },
           ],
         },
@@ -65,37 +66,31 @@ const default_config = {
             {
               name: "anilist",
               url: "https://anilist.co/home",
-              icon: "brand-funimation",
-              icon_color: palette.sky,
             },
             {
               name: "mal",
               url: "https://myanimelist.net",
-              icon: "brand-funimation",
-              icon_color: palette.blue,
             },
             {
               name: "simkl",
               url: "https://simkl.com/6495165/dashboard",
-              icon: "movie",
-              icon_color: palette.rosemary,
             },
           ],
         },
       ],
     },
     {
-      name: "space",
+      name: "tech",
       background_url: "src/img/banners/cbg-07.gif",
       categories: [
         {
-          name: "development",
+          name: "devspace",
           links: [
             {
               name: "github",
               url: "https://github.com",
               icon: "brand-github",
-              icon_color: palette.gray,
+              icon_color: palette.sky,
             },
             {
               name: "w3schools",
@@ -104,11 +99,11 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.red,
-            },
+              name: "musicForProgramming();",
+              url: "https://musicforprogramming.net",
+              icon: "binary-tree",
+              icon_color: palette.peach,
+            }
           ],
         },
         {
@@ -144,16 +139,18 @@ const default_config = {
               icon_color: palette.green,
             },
             {
+              name: "jiji.co.ke",
+              url: "https://jiji.co.ke"
+            },
+            {
               name: "pcgamesbenchmark",
               url: "https://www.pcgamebenchmark.com",
               icon: "devices-pc",
               icon_color: palette.teal,
             },
             {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
+              name: "oraimo",
+              url: "https://ke.oraimo.com",
             },
           ],
         },
@@ -253,4 +250,4 @@ const CONFIG = new Config(default_config, palette);
 
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
-root.style.setProperty("--accent", palette.green);
+root.style.setProperty("--accent", palette.flamingo);
