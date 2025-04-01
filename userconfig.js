@@ -102,7 +102,7 @@ const default_config = {
               url: "https://musicforprogramming.net",
               icon: "binary-tree",
               icon_color: palette.peach,
-            }
+            },
           ],
         },
         {
@@ -125,7 +125,7 @@ const default_config = {
             {
               name: "megathread",
               url: "https://rentry.org/pgames",
-            }
+            },
           ],
         },
         {
