@@ -3,7 +3,7 @@ const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
-  localIcons: true
+  localIcons: true,
   temperature: {
     location: "Nairobi",
     scale: "C",
