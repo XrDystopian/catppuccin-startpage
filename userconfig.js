@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = mmocha;
+const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
