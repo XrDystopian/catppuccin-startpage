@@ -117,20 +117,11 @@ const default_config = {
             {
               name: "fitgirl-repacks",
               url: "https://fitgirl-repacks.site",
-              icon: "skull",
-              icon_color: palette.red,
             },
             {
               name: "steamrip",
               url: "https://steamrip.com",
-              icon: "skull",
-              icon_color: palette.mauve,
             },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
             {
               name: "fmhy",
               url: "https://fmhy.net",
@@ -138,16 +129,25 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
+              name: "megathread",
+              url: "https://rentry.org/pgames",
+            }
+          ],
+        },
+        {
+          name: "resources",
+          links: [
+            {
+              name: "chatgpt",
+              url: "https://chatgpt.com",
+              icon: "ai",
+              icon_color: palette.green,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
+              name: "pcgamesbenchmark",
+              url: "https://www.pcgamebenchmark.com",
+              icon: "devices-pc",
+              icon_color: palette.teal,
             },
             {
               name: "netflix tech blog",
@@ -159,8 +159,8 @@ const default_config = {
         },
       ],
     },
-    {
-      name: "chi ll",
+    /*{
+      name: "",
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
@@ -245,7 +245,7 @@ const default_config = {
           ],
         },
       ],
-    },
+    },*/
   ],
 };
 
