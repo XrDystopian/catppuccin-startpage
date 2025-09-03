@@ -45,7 +45,7 @@ class Config {
     // List of disabled components
     disabled: [],
     // Whether to use local fonts instead of Google Fonts CDN
-    localFonts: false,
+    localFonts: true,
     // Whether to restore last active tab on load
     openLastVisitedTab: false,
     // User-defined bookmark tabs
