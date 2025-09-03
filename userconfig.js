@@ -17,7 +17,7 @@ const default_config = {
   tabs: [
     {
       name: "space",
-      background_url: "src/img/banners/banner-09.gif",
+      background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
           name: "bookmarks",
@@ -80,7 +80,7 @@ const default_config = {
     },
     {
       name: "tech",
-      background_url: "src/img/banners/banner-06.gif",
+      background_url: "src/img/banners/banner_06.gif",
       categories: [
         {
           name: "devspace",
