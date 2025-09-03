@@ -17,19 +17,19 @@ const default_config = {
   tabs: [
     {
       name: "space",
-      background_url: "src/img/banners/cbg-09.gif",
+      background_url: "src/img/banners/banner-09.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "youtube",
+              name: "YouTube",
               url: "https://www.youtube.com/",
               icon: "brand-youtube",
               icon_color: palette.red,
             },
             {
-              name: "gmail",
+              name: "Gmail",
               url: "https://mail.google.com",
               icon: "brand-gmail",
               icon_color: palette.green,
@@ -40,19 +40,19 @@ const default_config = {
           name: "social media",
           links: [
             {
-              name: "reddit",
+              name: "Reddit",
               url: "https://www.reddit.com",
               icon: "brand-reddit",
               icon_color: palette.peach,
             },
             {
-              name: "instagram",
+              name: "Instagram",
               url: "https://www.instagram.com",
               icon: "brand-instagram",
               icon_color: palette.lavender,
             },
             {
-              name: "twitter/X",
+              name: "X",
               url: "https://x.com/home",
               icon: "brand-x",
               icon_color: palette.pink,
@@ -63,15 +63,15 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "anilist",
+              name: "AniList",
               url: "https://anilist.co/home",
             },
             {
-              name: "mal",
+              name: "MyAnimeList",
               url: "https://myanimelist.net",
             },
             {
-              name: "simkl",
+              name: "Simkl",
               url: "https://simkl.com/6495165/dashboard",
             },
           ],
@@ -80,13 +80,13 @@ const default_config = {
     },
     {
       name: "tech",
-      background_url: "src/img/banners/cbg-07.gif",
+      background_url: "src/img/banners/banner-06.gif",
       categories: [
         {
           name: "devspace",
           links: [
             {
-              name: "github",
+              name: "Github",
               url: "https://github.com",
               icon: "brand-github",
               icon_color: palette.sky,
